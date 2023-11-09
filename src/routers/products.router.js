@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import ProductManager from '../productManager.js';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import productsModel from '../models/products.model.js';
