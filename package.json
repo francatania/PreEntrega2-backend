@@ -5,7 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "express-handlebars": "^7.1.2",
     "mongoose": "^8.0.0",
     "mongoose-paginate-v2": "^1.7.4",
+    "nodemon": "^3.0.1",
     "toastify-js": "^1.12.0",
     "uui": "^1.0.7"
   }
